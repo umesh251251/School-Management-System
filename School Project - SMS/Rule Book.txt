@@ -1,0 +1,14 @@
+Rule Book - School Management System
+++++++++++++++++++++++++++++++
+Database =  School_Management
+Table01 = CDTParticulars
+++++++++++++++++++++++++++++++
+1. Creating Database:
+>>>  create database SMS;
+
+2. Creating Table CDTParticulars:
+>>>  create table cData(Rollno varchar(50) Primary key, Name varchar(50), Class varchar(50), Section varchar(50), Phno varchar(50), ACDID varchar(50), ATDID varchar(50));
+
+3. Creating Table TCLogs;
+>>>  create table TCLogs(Rollno varchar(50) Primary key, Name varchar(50), Class varchar(50), Section varchar(50), Phno varchar(50), ACDID varchar(50), ATDID varchar(50));
+
